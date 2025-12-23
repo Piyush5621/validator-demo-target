@@ -1,0 +1,12 @@
+# Security Files (Ignored)
+forbidden_keys.pem
+aws_credentials.txt
+.env
+.env.local
+.env.production
+credentials.json
+secrets.key
+
+# Logs
+npm-debug.log*
+*.log

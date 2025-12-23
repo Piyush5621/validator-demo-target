@@ -1,0 +1,13 @@
+{
+    "name": "gitops-validator-demo-target",
+    "version": "1.0.0",
+    "description": "Target repository for testing GitOps PR Validator",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
