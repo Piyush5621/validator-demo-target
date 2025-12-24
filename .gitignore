@@ -1,9 +1,7 @@
 # Security Files (Ignored by default for safety)
 # To test the validator: Remove one of these lines, commit the file, and push.
 
-.env
-credentials.json
-application.yml
+
 forbidden_keys.pem
 aws_credentials.txt
 id_rsa
@@ -11,7 +9,11 @@ secrets.yaml
 google_service_account.json
 azure_config.xml
 stripe_prod.key
+auth_token.json
+prod_db_password.txt
 
 # Logs
 npm-debug.log*
 *.log
+.env
+credentials.json
